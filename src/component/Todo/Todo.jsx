@@ -20,7 +20,7 @@ import styles from './Todo.module.css';
         className={styles.checkbox}
         type="checkbox"
         id="checkbox"
-        checked={status == "completed"}
+        checked={status === "completed"}
         onChange={handleChange}
       />
       <label className={styles.text}>{text}</label>
